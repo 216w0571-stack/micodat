@@ -110,22 +110,18 @@ const tabs = [
         </div>
       </header>
 
-       {/* Contenido principal */}
+      {/* Contenido Principal */}
       <main className="max-w-4xl mx-auto p-4">
-        {/* Imagen */}
+        {/* Imagen del Hongo */}
         <div className="bg-white rounded-lg shadow-md p-4 mb-6">
- <img
-  src={
-    hongo.imagen
-      ? `http://localhost:3000/imagenes/${hongo.imagen}`
-      : "/placeholder-mushroom.jpg"
-  }
-  alt={hongo.nombre_es}
-  className="w-full max-w-2xl mx-auto h-80 object-cover rounded-lg"
-  onError={(e) => {
-    e.target.src = "/placeholder-mushroom.jpg";
-  }}
-/>
+          <img 
+            src={hongo.imagen ? `http://localhost:3000/images/${hongo.imagen}` : '/placeholder-mushroom.jpg'} 
+            alt={hongo.nombre_es}
+            className="w-full max-w-2xl mx-auto h-80 object-cover rounded-lg"
+            onError={(e) => {
+              e.target.src = '/placeholder-mushroom.jpg';
+            }}
+          />
         </div>
 
         {/* Nombre y Etiqueta */}
