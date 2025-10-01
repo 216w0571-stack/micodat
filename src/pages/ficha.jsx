@@ -128,13 +128,14 @@ const tabs = [
         <div className="bg-white rounded-lg shadow-md p-6 mb-6">
           <div className="flex items-center justify-between flex-wrap gap-4">
             <div>
-              <h2 className="text-2xl font-bold text-gray-800">
-                <h1 className="text-3xl font-bold mb-2">{hongo.nombre_es}</h1>
-
-              </h2>
+              <p className="text-2xl font-bold text-gray-800">
+<h2>
+  <span>{hongo.nombre_es}</span>
+</h2>
+              </p>
               {hongo.nombre_nah && (
                 <p className="text-lg text-gray-600 italic mt-1">
-                  <h1 className="text-3xl font-bold mb-2">{hongo.nombre_nah}</h1>
+                  <h2 className="text-3xl font-bold mb-2">{hongo.nombre_nah}</h2>
                 </p>
               )}
             </div>
