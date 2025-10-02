@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # express-micodat
 =======
 # React + Vite
@@ -18,3 +19,6 @@ The React Compiler is currently not compatible with SWC. See [this issue](https:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 >>>>>>> 03b932c (Primer commit - proyecto Express micodat)
+=======
+# micodat
+>>>>>>> 665769d96387f909520f0dc4dcf43bc52e718296
