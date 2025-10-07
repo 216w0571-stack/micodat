@@ -1,7 +1,7 @@
-import {  BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import { Lista } from "./pages/lista.jsx";
-import { Ficha } from "./pages/ficha.jsx";
+import { Lista } from "./pages/lista";
+import { Ficha } from "./pages/ficha";
 
 function App() {
   return (
